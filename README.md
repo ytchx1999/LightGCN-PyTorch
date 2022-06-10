@@ -46,6 +46,11 @@ Change `ROOT_PATH` in `code/world.py`
 * command
 
 ` cd code && python main.py --decay=1e-4 --lr=0.001 --layer=3 --seed=2020 --dataset="gowalla" --topks="[20]" --recdim=64`
+python main.py --decay=1e-4 --lr=0.001 --layer=3 --seed=0 --dataset="ml100k" --topks="[10, 20, 50]" --recdim=64
+python main.py --decay=1e-4 --lr=0.001 --layer=3 --seed=2020 --dataset="mooc" --topks="[10, 20, 50]" --recdim=64
+python main.py --decay=1e-4 --lr=0.001 --layer=3 --seed=2020 --dataset="garden" --topks="[10, 20, 50]" --recdim=64
+python main.py --decay=1e-4 --lr=0.001 --layer=3 --seed=2020 --dataset="video" --topks="[10, 20, 50]" --recdim=64
+python main.py --decay=1e-4 --lr=0.001 --layer=3 --seed=2020 --dataset="instruments" --topks="[10, 20, 50]" --recdim=64
 
 * log output
 
